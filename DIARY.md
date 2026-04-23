@@ -11,6 +11,7 @@
 - [April 17, 2026 — Google DeepMind Meetup: How It All Started, Cactus AI & Unsloth](#april-17-2026--google-deepmind-meetup-how-it-all-started-cactus-ai--unsloth)
 - [April 18, 2026 — Chapter 1: Vectors, Linear Algebra Refresher & Insights from Magic AI](#april-18-2026--chapter-1-vectors-linear-algebra-refresher--insights-from-magic-ai)
 - [April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos](#april-21-2026--meeting-the-vp-of-engineering-at-synthflow-book-recommendations--karpathy-videos)
+- [April 22, 2026 — Flying SF to Berlin: Reading Chapter 1 — Understanding LLMs](#april-22-2026--flying-sf-to-berlin-reading-chapter-1--understanding-llms)
 
 ---
 
@@ -71,6 +72,8 @@ The first one is **“Build a Large Language Model From Scratch”** by Sebastia
 
 He also suggested videos from **Andrej Karpathy** as a faster learning route — less in depth than the books, but a great way to get up to speed quickly.
 
+He also mentioned **LM Studio**, which is an inference tool that lets you download and run open source models locally — including models from HuggingFace — straight on your laptop.
+
 ### People
 
 - **Naaman Newbold** — VP of Engineering, Synthflow · [LinkedIn](https://www.linkedin.com/in/naaman)
@@ -78,11 +81,34 @@ He also suggested videos from **Andrej Karpathy** as a faster learning route —
 ### Companies & Tools
 
 - **Synthflow** — Enterprise voice AI platform — builds and deploys AI phone agents that can handle calls, book appointments and qualify leads at scale · [synthflow.ai](https://synthflow.ai)
+- **LM Studio** — Naaman’s recommendation. Download and run open source models — including anything on HuggingFace — locally on your laptop, no cloud needed · [lmstudio.ai](https://lmstudio.ai)
 
 ### Resources
 
 - [Build a Large Language Model From Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) — Sebastian Raschka · hands-on book that walks you through building an LLM from the ground up
 - Build a Reasoning Model From Scratch — Sebastian Raschka · to be released
 - [Andrej Karpathy — Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) — video series building neural networks from scratch, faster route into the fundamentals
+
+---
+
+## April 22, 2026 — Flying SF to Berlin: Reading Chapter 1 — Understanding LLMs
+
+Today I’m leaving San Francisco and flying back to Berlin. On the flight I start reading the first chapter of **“Build a Large Language Model From Scratch”** — and it’s a really great intro.
+
+Chapter 1 is all about **understanding what LLMs actually are** and how they came to be. A few things really clicked for me.
+
+LLMs are trained on massive amounts of text from the internet — books, articles, websites — and they learn by doing one thing over and over: **predicting the next word**. That’s it. That’s the core idea. It sounds almost too simple, but the scale of it — billions of examples, billions of parameters — is what makes the magic happen.
+
+The architecture behind all modern LLMs is called the **Transformer**. It was introduced by Google in a 2017 paper and completely changed the field. Everything we use today — ChatGPT, Claude, Gemma — is built on this same foundation.
+
+I also learned the difference between **pre-training** and **fine-tuning**. Pre-training is the big, expensive phase where the model reads through enormous amounts of raw text and learns the patterns of language. Fine-tuning is when you take that base model and train it further on more specific data to make it useful for a particular task — like following instructions or answering questions. That’s exactly what tools like Unsloth help you do.
+
+Another thing that blew my mind a little: as models get bigger and are trained on more data, they start developing capabilities that nobody explicitly programmed in. This is called **emergent behaviour** — the model just figures things out on its own from scale. That’s what makes this field feel like rocket science from the outside, but it all starts with that one simple idea: predict the next word.
+
+What I love about this book is that it promises to walk through every single piece of this from scratch. No black boxes. You build it yourself and you understand why it works. That’s exactly the approach I need.
+
+### Resources
+
+- [Build a Large Language Model From Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) — Sebastian Raschka · Chapter 1: Understanding Large Language Models
 
 ---
