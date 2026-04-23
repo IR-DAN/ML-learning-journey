@@ -10,6 +10,7 @@
 
 - [April 17, 2026 — Google DeepMind Meetup: How It All Started, Cactus AI & Unsloth](#april-17-2026--google-deepmind-meetup-how-it-all-started-cactus-ai--unsloth)
 - [April 18, 2026 — Chapter 1: Vectors, Linear Algebra Refresher & Insights from Magic AI](#april-18-2026--chapter-1-vectors-linear-algebra-refresher--insights-from-magic-ai)
+- [April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos](#april-21-2026--meeting-the-vp-of-engineering-at-synthflow-book-recommendations--karpathy-videos)
 
 ---
 
@@ -45,7 +46,7 @@ Henry is the person that encouraged me to start learning about machine learning,
 
 I went through the first chapter about **Vectors**. It’s basically linear algebra maths that I used to study ten years ago in university. So I have a good understanding of all the mathematical concepts, which helps me now — I just need to refresh. I opened up a Google Notepad to play around with the code, execute the code, and play around with the vectors.
 
-Later in the evening, I also met **Samad** from **Magic AI**, who told me that as an ML researcher, he’s not programming that much. It’s more about understanding the concepts, the mathematics, the approach, the evals, the datasets, the synthetic datasets, and the whole process than about coding. Additionally, if you’re not very strong with Python coding, the use of vibe coding can cover your white spots.
+Later in the evening, I also met **Samarth Shukla** from **Magic AI**, who told me that as an ML researcher, he’s not programming that much. It’s more about understanding the concepts, the mathematics, the approach, the evals, the datasets, the synthetic datasets, and the whole process than about coding. Additionally, if you’re not very strong with Python coding, the use of vibe coding can cover your white spots.
 
 All in all, I’m super encouraged and excited to start a journey in learning ML. I think it’s like foundational knowledge that I need to learn, and I’m also super curious and eager about this whole topic that seems to me like rocket science.
 
@@ -53,11 +54,35 @@ I also decided to share everything to encourage and help others — that if we p
 
 ### People
 
-- **Samad** — ML Researcher, Magic AI · LinkedIn n/a
+- **Samarth Shukla** — ML Researcher, Magic AI · [LinkedIn](https://www.linkedin.com/in/samarth189)
 
 ### Companies & Tools
 
-- **Magic AI** — Where Samad works. They’re building frontier-scale code models — talking to him gave me a real insider view on what ML research actually looks like day to day · [magic.dev](https://magic.dev)
+- **Magic AI** — Where Samarth works. They’re building frontier-scale code models — talking to him gave me a real insider view on what ML research actually looks like day to day · [magic.dev](https://magic.dev)
 - **Google Colab** — The tool I used to run my first ML code. Free, runs in the browser, no setup — perfect for experimenting with vectors and getting your hands dirty fast · [colab.research.google.com](https://colab.research.google.com)
+
+---
+
+## April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos
+
+I met **Naaman**, VP of Engineering at **Synthflow**. He gave me some really useful book recommendations for the journey.
+
+The first one is **“Build a Large Language Model From Scratch”** by Sebastian Raschka — I already downloaded it to my Kindle. The second one is **“Build a Reasoning Model From Scratch”**, which is still to be released.
+
+He also suggested videos from **Andrej Karpathy** as a faster learning route — less in depth than the books, but a great way to get up to speed quickly.
+
+### People
+
+- **Naaman** — VP of Engineering, Synthflow · LinkedIn n/a
+
+### Companies & Tools
+
+- **Synthflow** — Enterprise voice AI platform — builds and deploys AI phone agents that can handle calls, book appointments and qualify leads at scale · [synthflow.ai](https://synthflow.ai)
+
+### Resources
+
+- [Build a Large Language Model From Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) — Sebastian Raschka · hands-on book that walks you through building an LLM from the ground up
+- Build a Reasoning Model From Scratch — Sebastian Raschka · to be released
+- [Andrej Karpathy — Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) — video series building neural networks from scratch, faster route into the fundamentals
 
 ---
