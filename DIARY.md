@@ -45,7 +45,7 @@ Henry is the person that encouraged me to start learning about machine learning,
 
 ## April 18, 2026 — Chapter 1: Vectors, Linear Algebra Refresher & Insights from Magic AI
 
-I went through the first chapter about **Vectors**. It’s basically linear algebra maths that I used to study ten years ago in university. So I have a good understanding of all the mathematical concepts, which helps me now — I just need to refresh. I opened up a Google Notepad to play around with the code, execute the code, and play around with the vectors.
+I went through the first chapter of **Henry’s Maths, CS & AI Compendium** — Chapter 1 is about **Vectors** (not to be confused with the book I start later). It’s basically linear algebra maths that I used to study ten years ago in university. So I have a good understanding of all the mathematical concepts, which helps me now — I just need to refresh. I opened up a Google Notepad to play around with the code, execute the code, and play around with the vectors.
 
 Later in the evening, I also met **Samarth Shukla** from **Magic AI**, who told me that as an ML researcher, he’s not programming that much. It’s more about understanding the concepts, the mathematics, the approach, the evals, the datasets, the synthetic datasets, and the whole process than about coding. Additionally, if you’re not very strong with Python coding, the use of vibe coding can cover your white spots.
 
@@ -61,6 +61,10 @@ I also decided to share everything to encourage and help others — that if we p
 
 - **Magic AI** — Where Samarth works. They’re building frontier-scale code models — talking to him gave me a real insider view on what ML research actually looks like day to day · [magic.dev](https://magic.dev)
 - **Google Colab** — The tool I used to run my first ML code. Free, runs in the browser, no setup — perfect for experimenting with vectors and getting your hands dirty fast · [colab.research.google.com](https://colab.research.google.com)
+
+### Resources
+
+- [Henry Ndubuaku’s Maths, CS & AI Compendium](https://henryndubuaku.github.io/maths-cs-ai-compendium/) — Chapter 1: Vectors
 
 ---
 
