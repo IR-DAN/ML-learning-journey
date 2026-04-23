@@ -12,6 +12,7 @@
 - [April 18, 2026 — Chapter 1: Vectors, Linear Algebra Refresher & Insights from Magic AI](#april-18-2026--chapter-1-vectors-linear-algebra-refresher--insights-from-magic-ai)
 - [April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos](#april-21-2026--meeting-the-vp-of-engineering-at-synthflow-book-recommendations--karpathy-videos)
 - [April 22, 2026 — Flying SF to Berlin: Reading Chapter 1 — Understanding LLMs](#april-22-2026--flying-sf-to-berlin-reading-chapter-1--understanding-llms)
+- [April 23, 2026 — The AI Engineering Stack, AI vs ML Engineering & Chip Huyen’s Book](#april-23-2026--the-ai-engineering-stack-ai-vs-ml-engineering--chip-huyens-book)
 
 ---
 
@@ -114,5 +115,31 @@ What I love about this book is that it promises to walk through every single pie
 ### Resources
 
 - [Build a Large Language Model From Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) — Sebastian Raschka · Chapter 1: Understanding Large Language Models
+
+---
+
+## April 23, 2026 — The AI Engineering Stack, AI vs ML Engineering & Chip Huyen’s Book
+
+I read a really interesting newsletter post from **The Pragmatic Engineer** — written by **Gergely Orosz** together with **Chip Huyen**. It’s actually an excerpt from Chip’s book **“AI Engineering”** and it gives a really clear picture of what the AI engineering field actually looks like.
+
+The article breaks the AI stack into three layers: **application development**, **model development**, and **infrastructure**. What I found really useful is how it clearly explains the difference between AI engineering and ML engineering — something I didn’t fully understand before.
+
+**ML Engineering** is about building and training models from scratch — you’re deep in the data, the model architecture, the maths, the training pipelines. It’s hard, it’s expensive, and it requires a lot of specialised knowledge.
+
+**AI Engineering** is about building applications on top of foundation models that already exist — like GPT, Claude, or Gemma. You’re working with APIs, doing prompt engineering, building RAG systems, fine-tuning pre-trained models, and figuring out how to evaluate and deploy things properly. You don’t need to train a model from scratch to build something powerful. The game has completely changed.
+
+This was a real eye-opener for me. Most AI jobs at startups and big tech right now are AI engineering roles, not ML research roles. And for someone coming from a software and CS background, this is actually very accessible.
+
+After reading this I decided to buy **Chip Huyen’s “AI Engineering”** book. Chip is a computer scientist and writer from Vietnam who has worked on ML tooling at NVIDIA, Snorkel AI, and Netflix, founded an AI infrastructure startup, and taught Machine Learning Systems Design at Stanford. Her previous book “Designing Machine Learning Systems” was an Amazon bestseller. “AI Engineering” came out in January 2025 and has been the most read book on the O’Reilly platform since launch. It’s exactly the kind of practical, end-to-end guide I’m looking for.
+
+### People
+
+- **Chip Huyen** — Author, AI Engineering · [LinkedIn](https://www.linkedin.com/in/chiphuyen/)
+- **Gergely Orosz** — Author, The Pragmatic Engineer newsletter · [LinkedIn](https://nl.linkedin.com/in/gergelyorosz)
+
+### Resources
+
+- [The AI Engineering Stack](https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack) — Gergely Orosz & Chip Huyen · The Pragmatic Engineer newsletter
+- [AI Engineering: Building Applications with Foundation Models](https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302) — Chip Huyen · O’Reilly 2025
 
 ---
