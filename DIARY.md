@@ -65,7 +65,7 @@ I also decided to share everything to encourage and help others — that if we p
 
 ## April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos
 
-I met **Naaman**, VP of Engineering at **Synthflow**. He gave me some really useful book recommendations for the journey.
+I met **Naaman Newbold**, VP of Engineering at **Synthflow**. He gave me some really useful book recommendations for the journey.
 
 The first one is **“Build a Large Language Model From Scratch”** by Sebastian Raschka — I already downloaded it to my Kindle. The second one is **“Build a Reasoning Model From Scratch”**, which is still to be released.
 
@@ -73,7 +73,7 @@ He also suggested videos from **Andrej Karpathy** as a faster learning route —
 
 ### People
 
-- **Naaman** — VP of Engineering, Synthflow · LinkedIn n/a
+- **Naaman Newbold** — VP of Engineering, Synthflow · [LinkedIn](https://www.linkedin.com/in/naaman)
 
 ### Companies & Tools
 
