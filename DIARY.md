@@ -132,6 +132,10 @@ This was a real eye-opener for me. Most AI jobs at startups and big tech right n
 
 After reading this I decided to buy **Chip Huyen’s “AI Engineering”** book. Chip is a computer scientist and writer from Vietnam who has worked on ML tooling at NVIDIA, Snorkel AI, and Netflix, founded an AI infrastructure startup, and taught Machine Learning Systems Design at Stanford. Her previous book “Designing Machine Learning Systems” was an Amazon bestseller. “AI Engineering” came out in January 2025 and has been the most read book on the O’Reilly platform since launch. It’s exactly the kind of practical, end-to-end guide I’m looking for.
 
+**If you’re exploring jobs in ML and AI, I think this distinction is super important to understand — and here’s why.** Based on conversations I’ve had with investors and engineers, I genuinely believe that AI engineering is going to be more valuable in the job market going forward, not less. The foundation models are maturing fast. The big labs — OpenAI, Google, Anthropic, Meta — are pushing out increasingly powerful base models, which means the demand for ML engineers working on pre-training is declining. There are only so many companies in the world that need people training foundation models from scratch, and that number is shrinking as the models get better. The one exception is post-training — ML engineers specialising in fine-tuning and distillation may actually see their numbers go up, as more companies want to adapt and compress open source models for their specific needs.
+
+But the really big, growing opportunity is AI engineering — taking those foundation models and building real products and applications on top of them. Every company in every industry is now trying to figure out how to use AI, and they need engineers who know how to build with it. And the good news is that if you already have a software engineering background, you’re much closer to being an AI engineer than you probably think.
+
 ### People
 
 - **Chip Huyen** — Author, AI Engineering · [LinkedIn](https://www.linkedin.com/in/chiphuyen/)
