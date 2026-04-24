@@ -13,6 +13,7 @@
 - [April 21, 2026 — Meeting the VP of Engineering at Synthflow, Book Recommendations & Karpathy Videos](#april-21-2026--meeting-the-vp-of-engineering-at-synthflow-book-recommendations--karpathy-videos)
 - [April 22, 2026 — Flying SF to Berlin: Reading Chapter 1 — Understanding LLMs](#april-22-2026--flying-sf-to-berlin-reading-chapter-1--understanding-llms)
 - [April 23, 2026 — The AI Engineering Stack, AI vs ML Engineering & Chip Huyen’s Book](#april-23-2026--the-ai-engineering-stack-ai-vs-ml-engineering--chip-huyens-book)
+- [April 24, 2026 — First Day at Synthflow: MacBook M5 Pro & Learning About RunPod](#april-24-2026--first-day-at-synthflow-macbook-m5-pro--learning-about-runpod)
 
 ---
 
@@ -145,5 +146,18 @@ But the really big, growing opportunity is AI engineering — taking those found
 
 - [The AI Engineering Stack](https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack) — Gergely Orosz & Chip Huyen · The Pragmatic Engineer newsletter
 - [AI Engineering: Building Applications with Foundation Models](https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302) — Chip Huyen · O’Reilly 2025
+
+---
+
+## April 24, 2026 — First Day at Synthflow: MacBook M5 Pro & Learning About RunPod
+
+Today was my first day at **Synthflow**. I got set up with a **MacBook M5 Pro with 48 GB** of unified memory — an incredibly powerful machine, especially for running models locally. The M5 Pro chip with that much memory opens up a lot of possibilities for local inference without needing to spin up cloud GPU instances for every experiment.
+
+During the day I got introduced to **RunPod**, which is a cloud GPU platform. The idea is simple: instead of owning expensive GPU hardware, you rent GPU instances on demand — by the hour — to run training jobs or inference workloads. It’s much cheaper than the big cloud providers like AWS or GCP for GPU-heavy tasks, and it’s become a popular choice in the ML community for exactly that reason.
+
+### Companies & Tools
+
+- **Synthflow** — Enterprise voice AI platform — builds and deploys AI phone agents that can handle calls, book appointments and qualify leads at scale · [synthflow.ai](https://synthflow.ai)
+- **RunPod** — On-demand cloud GPU platform. Rent GPUs by the hour for training and inference — far cheaper than AWS or GCP for ML workloads · [runpod.io](https://www.runpod.io)
 
 ---
