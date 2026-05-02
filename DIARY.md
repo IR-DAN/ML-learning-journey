@@ -14,6 +14,7 @@
 - [April 22, 2026 - Flying SF to Berlin: Reading Chapter 1, Understanding LLMs](#april-22-2026--flying-sf-to-berlin-reading-chapter-1--understanding-llms)
 - [April 23, 2026 - The AI Engineering Stack, AI vs ML Engineering & Chip Huyen's Book](#april-23-2026--the-ai-engineering-stack-ai-vs-ml-engineering--chip-huyens-book)
 - [May 2, 2026 - Found on LinkedIn: 8-Session Fine-Tuning Curriculum by Miguel Otero Pedrido, Powered by Unsloth](#may-2-2026--found-on-linkedin-8-session-fine-tuning-curriculum-by-miguel-otero-pedrido-powered-by-unsloth)
+- [May 2, 2026 - The Fine-Tuning Toolkit: 6 Libraries That Make It Possible on One GPU](#may-2-2026--the-fine-tuning-toolkit-6-libraries-that-make-it-possible-on-one-gpu)
 
 ---
 
@@ -180,5 +181,44 @@ What I really like about this is that it goes from first principles all the way 
 
 - [LinkedIn post by Miguel Otero Pedrido](https://www.linkedin.com/posts/migueloteropedrido_8-sessions-from-pretraining-to-production-share-7454931809345306624-cGSz) - The post that started it
 - [The Finetuning Course the AI Community Deserved](https://theneuralmaze.substack.com/p/the-finetuning-course-the-ai-community) - Full blog post with course overview
+
+---
+
+## May 2, 2026 - The Fine-Tuning Toolkit: 6 Libraries That Make It Possible on One GPU
+
+Also scrolling LinkedIn today I came across a post from **Hoang Van Hao** that really clicked for me. He said he just fine-tuned Qwen3-8B on a single GPU using 80% less VRAM than you'd expect, and the reason wasn't some magic hardware. It was knowing which tools to use.
+
+He breaks it down into 6 libraries and I think it's one of the clearest summaries of the practical fine-tuning stack I've come across so far.
+
+**Unsloth** is the one I already know from this journey. 2x faster training, 80% less VRAM, runs in Google Colab on around 3GB. Supports Qwen3, Llama 4 and Gemma 4.
+
+**LLaMA-Factory** was new to me. 100+ models, web UI or CLI, no coding required. Covers full fine-tuning, LoRA, QLoRA and DPO all in one place. 49k GitHub stars, which is a solid signal.
+
+**DeepSpeed** is the heavy-duty option for multi-GPU setups and beyond. It uses ZeRO memory optimization to push fine-tuning into models with trillions of parameters. This is what the top AI labs run in production.
+
+**Axolotl** takes a different approach: write a YAML config file and it produces a fine-tuned model with no boilerplate. Supports LoRA, QLoRA, DPO, GRPO and multimodal. Apparently the cleanest developer experience of any framework in this space.
+
+**TRL** (Transformer Reinforcement Learning) by HuggingFace just dropped v1.0 in March 2026. This is the same library behind DeepSeek-R1's GRPO training, which I came across earlier in Miguel's fine-tuning curriculum. Full post-training stack: SFT, DPO, GRPO, PPO and reward modeling.
+
+**PEFT** (Parameter-Efficient Fine-Tuning) is the LoRA and QLoRA engine that powers basically everything else on this list. Fine-tune 12B+ models on consumer hardware, and the checkpoints come out in megabytes not gigabytes, so you can actually deploy them anywhere.
+
+The line that stuck with me: "Fine-tuning in 2026 isn't a compute problem. It's a knowing-where-to-start problem." That's a good one to save.
+
+### People
+
+- **Hoang Van Hao**, AI Engineer · [LinkedIn](https://www.linkedin.com/in/hoang-van-hao/)
+
+### Companies & Tools
+
+- **Unsloth AI** (YC S24): The one I keep coming back to. 2x faster, 80% less VRAM, works on a basic laptop · [unsloth.ai](https://unsloth.ai)
+- **LLaMA-Factory**: 100+ models, web UI or CLI, no coding needed · [github.com/hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+- **DeepSpeed**: Microsoft's library for large-scale distributed training, production-tested at top AI labs · [deepspeed.ai](https://www.deepspeed.ai)
+- **Axolotl**: YAML config to fine-tuned model, the cleanest DX in the fine-tuning space · [github.com/axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)
+- **TRL**: HuggingFace's full post-training library, behind DeepSeek-R1, v1.0 dropped March 2026 · [huggingface.co/docs/trl](https://huggingface.co/docs/trl)
+- **PEFT**: The LoRA/QLoRA engine under everything, checkpoints in MBs not GBs · [huggingface.co/docs/peft](https://huggingface.co/docs/peft)
+
+### Resources
+
+- [LinkedIn post by Hoang Van Hao](https://www.linkedin.com/posts/hoang-van-hao_i-just-fine-tuned-qwen3-8b-on-a-single-gpu-share-7456138157856772096-A0Mh) - 6 libraries for fine-tuning on a single GPU
 
 ---
